@@ -1,4 +1,4 @@
 class ApiConfig {
-  static const String apiKey = "your_api_key_here";
-  static const String baseUrl = "https://newsapi.org/v2";
+  static const String apiKey = "";
+  static const String baseUrl = "https://gnews.io/api/v4";
 }

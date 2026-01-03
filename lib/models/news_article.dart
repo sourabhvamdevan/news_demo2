@@ -17,7 +17,7 @@ class NewsArticle {
     return NewsArticle(
       title: json['title'] ?? '',
       description: json['description'] ?? '',
-      imageUrl: json['urlToImage'] ?? 'https://via.placeholder.com/300x200',
+      imageUrl: json['image'] ?? 'https://via.placeholder.com/300x200',
       source: json['source']['name'] ?? '',
       publishedAt: json['publishedAt'] ?? '',
     );
